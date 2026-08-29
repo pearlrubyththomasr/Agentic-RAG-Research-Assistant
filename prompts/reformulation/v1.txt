@@ -1,0 +1,11 @@
+## version: v1
+## purpose: rewrite query to improve retrieval of evidence
+## expected_input: {question}
+## expected_output: reformulated question focusing on evidence and key phrases
+
+Rewrite the user question to make retrieval of relevant evidence more likely. Preserve the meaning but add specificity and key phrases useful for scholarly search.
+
+Original question:
+{question}
+
+Rewritten query:

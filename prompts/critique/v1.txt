@@ -1,0 +1,9 @@
+## version: v1
+## purpose: score faithfulness of an answer against provided context from 0.0 to 1.0
+## expected_input: {answer} and implicit retrieved context
+## expected_output: single decimal number between 0.0 and 1.0
+
+You are evaluating the faithfulness of an answer given the retrieved context. Rate the answer from 0.0 to 1.0, where 1.0 means the answer is fully supported by the context. Answer only with a single decimal number.
+
+Answer:
+{answer}

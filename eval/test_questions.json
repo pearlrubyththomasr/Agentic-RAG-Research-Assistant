@@ -1,0 +1,35 @@
+{
+  "questions": [
+    {
+      "question": "What is the main contribution of the papers in the collected corpus?",
+      "reference": "The corpus contains recent arXiv papers covering duality tracing, visual retrieval, safety-aware robotics, claim-centered chemistry search, and prompt auditing.",
+      "gold_chunks": ["2607.28628v1", "2607.28618v1"]
+    },
+    {
+      "question": "Which paper describes a claim-centered literature synthesis system for chemistry?",
+      "reference": "The paper AskChem introduces a claim-centered infrastructure for chemistry literature synthesis and evidence-grounded search.",
+      "gold_chunks": ["2607.28618v1"]
+    }
+    ,
+    {
+      "question": "How do the papers in the dataset approach retrieval for multimodal tasks?",
+      "reference": "Several papers explore visual-semantic retrieval and representation learning to bridge images and text for retrieval tasks.",
+      "gold_chunks": ["2607.28650v1"]
+    },
+    {
+      "question": "Are there any contributions about safety-aware robotics in the corpus?",
+      "reference": "Yes — the corpus includes recent work on safety-aware planning and risk-aware control in robotics research.",
+      "gold_chunks": ["2607.28660v1"]
+    },
+    {
+      "question": "Which papers focus on auditing prompts or model behavior?",
+      "reference": "Some papers propose methods for auditing model prompts and evaluating robustness and alignment in language models.",
+      "gold_chunks": ["2607.28675v1"]
+    },
+    {
+      "question": "Describe any techniques for claim tracing or citation-aware summarization found in the corpus.",
+      "reference": "The corpus includes approaches for claim tracing, evidence retrieval, and citation-grounded summarization techniques.",
+      "gold_chunks": ["2607.28628v1", "2607.28618v1"]
+    }
+  ]
+}

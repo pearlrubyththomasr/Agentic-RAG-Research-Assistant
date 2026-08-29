@@ -1,0 +1,80 @@
+[
+  {
+    "question": "What is the main contribution of the papers in the collected corpus?",
+    "answer": "The main contributions of the papers in the collected corpus are:\n\n* AskChem (paper_id: v1) presents a claim-centered infrastructure for cross-paper chemistry search, enabling efficient retrieval and synthesis of specific findings across many publications.\n* AISPA (paper_id: ?) introduces a user-centric framework for auditing system prompts in AI systems, highlighting the need for greater transparency, standardization, and independent oversight.\n* Learning to Trace Seiberg Dualities (paper_id: ?) uses machine learning methods to establish mutations of quivers and study how different network architectures learn to trace Seiberg dualities.\n\nOverall, the main contributions are the development of novel infrastructure and frameworks for improving AI systems' ability to retrieve and synthesize information from large datasets.",
+    "faithfulness": 0.6375,
+    "answer_relevance": 0.3684210526315789,
+    "context_precision": 0.6666666666666666,
+    "context_recall": 1.0,
+    "retrieval_precision_at_5": 0.6666666666666666,
+    "retrieval_precision_at_10": 0.6666666666666666,
+    "latency_ms": 174392,
+    "retry_count": 0,
+    "mode": "agentic"
+  },
+  {
+    "question": "Which paper describes a claim-centered literature synthesis system for chemistry?",
+    "answer": "The paper that describes a claim-centered literature synthesis system for chemistry is **paper_id: 1**, titled \"AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis\". According to the context, AskChem changes the unit of retrieval from the paper to the provenance-carrying claim and provides a web interface, as well as REST, SDK, and MCP access for AI agents.",
+    "faithfulness": 0.8048780487804879,
+    "answer_relevance": 0.7857142857142857,
+    "context_precision": 0.3333333333333333,
+    "context_recall": 1.0,
+    "retrieval_precision_at_5": 0.3333333333333333,
+    "retrieval_precision_at_10": 0.3333333333333333,
+    "latency_ms": 105930,
+    "retry_count": 0,
+    "mode": "agentic"
+  },
+  {
+    "question": "How do the papers in the dataset approach retrieval for multimodal tasks?",
+    "answer": "The papers in the dataset, specifically AskChem (v1) and ReToken (v1), approach retrieval for multimodal tasks differently. AskChem presents a claim-centered infrastructure for cross-paper chemistry search, where each paper is converted into atomic, typed claims, each grounded by a source DOI and a verbatim quote or an explicit evidence locator [1]. This allows for hierarchical retrieval and browsing through a stabilized faceted taxonomy.\n\nOn the other hand, ReToken proposes a single learnable embedding trained as an explicit retrieval target that selects a sparse set of query-relevant visual tokens from a pre-filled visual KV cache [2]. This approach is designed to improve vision-language models' performance in processing long visual context and reducing computational complexity.\n\nIn summary, AskChem focuses on claim-centered infrastructure for chemistry literature synthesis, while ReToken targets improving vision-language models for visual retrieval.",
+    "faithfulness": 0.7083333333333334,
+    "answer_relevance": 0.35714285714285715,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "retrieval_precision_at_5": 0.0,
+    "retrieval_precision_at_10": 0.0,
+    "latency_ms": 325857,
+    "retry_count": 0,
+    "mode": "agentic"
+  },
+  {
+    "question": "Are there any contributions about safety-aware robotics in the corpus?",
+    "answer": "Yes, there are contributions about safety-aware robotics in the corpus. Specifically, paper `PAC-MAN` presents a perception-aware CBF-RL framework for whole-body safety in humanoid dodgeball, which couples control-barrier safety with deployment-realistic onboard sensing. The deployed policy tolerates imperfect perception and succeeds on 95% of throws, using semantic segmentation to dodge different balls.",
+    "faithfulness": 0.7083333333333334,
+    "answer_relevance": 0.375,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "retrieval_precision_at_5": 0.0,
+    "retrieval_precision_at_10": 0.0,
+    "latency_ms": 232134,
+    "retry_count": 0,
+    "mode": "agentic"
+  },
+  {
+    "question": "Which papers focus on auditing prompts or model behavior?",
+    "answer": "According to the retrieved context, only one paper focuses on auditing prompts or model behavior:\n\n* AISPA: User-Centric System Prompt Auditing for Large Language Model Applications (paper_id: [insert paper ID])",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevance": 0.3333333333333333,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "retrieval_precision_at_5": 0.0,
+    "retrieval_precision_at_10": 0.0,
+    "latency_ms": 136459,
+    "retry_count": 0,
+    "mode": "agentic"
+  },
+  {
+    "question": "Describe any techniques for claim tracing or citation-aware summarization found in the corpus.",
+    "answer": "Based on the retrieved context, I did not find any specific techniques for claim tracing or citation-aware summarization mentioned in the papers. However, I can provide some insights from AskChem (paper_id: v1) that might be relevant:\n\nAskChem presents a claim-centered infrastructure for cross-paper chemistry search, where each paper is converted into atomic, typed claims, each grounded by a source DOI and a verbatim quote or an explicit evidence locator. This approach allows for the creation of a shared claim store, which can facilitate citation-aware summarization. However, the specific techniques used in AskChem are not explicitly described.\n\nThe other papers (AISPA and ReToken) do not discuss claim tracing or citation-aware summarization.\n\nTherefore, my concise answer is:\n\nNo specific techniques for claim tracing or citation-aware summarization were found in the corpus.",
+    "faithfulness": 0.4666666666666667,
+    "answer_relevance": 0.46153846153846156,
+    "context_precision": 0.3333333333333333,
+    "context_recall": 0.5,
+    "retrieval_precision_at_5": 0.3333333333333333,
+    "retrieval_precision_at_10": 0.3333333333333333,
+    "latency_ms": 570063,
+    "retry_count": 0,
+    "mode": "agentic"
+  }
+]
